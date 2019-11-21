@@ -1,0 +1,105 @@
+.order-history-container{
+	    width: 100%;
+    max-width: 100%;
+
+
+
+    .two-grid-column{
+    	margin:10 auto;
+    	.select-location{
+    		.planRegis-form{
+    			width:90%;
+					margin-top:20%;
+					 text-align: center;
+    		}
+		}
+
+
+		.date-filter-box{
+
+			height:auto;
+			p{
+				width: 100%;
+				 text-align: center;
+				 border-bottom: 1px dashed $grey-text;
+				 line-height: 0.1em;
+				 margin: 160px 0 14px;
+
+				 text-align:center;
+
+
+				span{
+					background:#fff;
+					padding:0 5px;
+
+
+				}
+			}
+
+			.date-filter-form{
+				max-width:100%;
+				height:auto;
+				display: flex;
+				flex-flow: row;
+				justify-content: space-around;
+				align-items: center;
+
+
+				div:nth-child(1){
+					width:100%;
+					height:auto;
+					/*background-color: yellow;*/
+				}
+
+				div:nth-child(2){
+					width:100%;
+					height:auto;
+
+				}
+
+				input{
+					margin:5px;
+				}
+				i{
+					font-size: 1.5em;
+					color:$zucora-purple;
+				}
+
+				span{
+					font-size:18px;
+					font-weight: 700;
+					font-family: $para-fonts;
+					margin-left:2em;
+				}
+
+			}
+
+		}
+    }
+		.allPlans-container{
+			width:200%;
+			margin:1em auto;
+			border:2px solid $grey-text;
+
+			.title{
+				p{
+					margin:0 10px;
+				}
+			}
+
+			.new-planAdd-detail{
+				display: block;
+				border:2px solid #d3d3df;
+
+				table{
+					td{
+						i{
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+
+
+}
